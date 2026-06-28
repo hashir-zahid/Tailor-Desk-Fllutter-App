@@ -1,0 +1,194 @@
+# ============================================
+# Flutter & Dart
+# ============================================
+
+# Flutter/Dart build artifacts
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+
+# Symbolication related files
+app.*.symbols
+*.ipr
+*.iws
+*.iml
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+
+# ============================================
+# Android
+# ============================================
+
+# Android Studio
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/android/**/*.iml
+**/android/.project
+**/android/.classpath
+**/android/.settings/
+
+# ============================================
+# iOS/macOS
+# ============================================
+
+# Xcode
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+**/ios/*.xcworkspace/xcuserdata/
+**/ios/*.xcodeproj/xcuserdata/
+**/ios/*.xcworkspace/xcuserdata/
+
+# ============================================
+# Web
+# ============================================
+
+# Web build
+**/web/
+
+# ============================================
+# Windows
+# ============================================
+
+# Windows build
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# ============================================
+# Linux
+# ============================================
+
+# Linux build
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+
+# ============================================
+# macOS (Flutter Desktop)
+# ============================================
+
+# macOS build
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# ============================================
+# IDE
+# ============================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ============================================
+# Environment & Secrets
+# ============================================
+
+# Environment variables
+.env
+.env.*
+!.env.example
+secrets.dart
+keys.dart
+credentials.dart
+config.dart
+
+# ============================================
+# OS & System
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Logs & Cache
+# ============================================
+
+# Logs
+*.log
+logs/
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# ============================================
+# Coverage & Test
+# ============================================
+
+# Coverage
+coverage/
+*.lcov
+*.info
+
+# ============================================
+# Misc
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.part.dart
+
+# ============================================
+# Firebase
+# ============================================
+
+# Firebase configuration (⚠️ IMPORTANT)
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+**/lib/firebase_options.dart
+
+# Firebase debug
+**/firebase-debug.log
+
+# ============================================
+# Temporary/Development Files
+# ============================================
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Development files
+dev/
+test-output/
+*.test.js
+*.test.css
+*.test.html
